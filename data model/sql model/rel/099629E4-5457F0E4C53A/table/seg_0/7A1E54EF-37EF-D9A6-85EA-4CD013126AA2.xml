@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A1E54EF-37EF-D9A6-85EA-4CD013126AA2" name="disease_prediciton">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>680C03B9-EFA5-9CA4-A152-6379694A5148</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="F5F2D150-BDC6-A722-BC06-5ECF71F1792D">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>BA945DA4-E133-CD6F-1247-78B4C8F117DF</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prediciton" id="584A2AB6-76EA-7F20-C385-B1AA02396701">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>3EF4A46C-C2BB-9E1B-591D-3CC325D3F5BD</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="C9C5C19D-F45C-629D-9139-992E780F2163">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>AD006080-67D7-0CD5-D66B-77DBE8896A2F</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_table_user_id" id="BD115F9A-4364-E043-76A8-4FC685598FCF">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>29F5BCC6-58AE-BDCE-9475-A950584C6286</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21F2E20C-DE43-6801-A2A1-A574ED02FF0C" referredColumn="9E7F3FAB-295B-0214-CDF2-8D91E749CF6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88D53136-5001-D874-D435-EA35D89440F4" name="disease_prediciton_users_table_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>E9DA605B-4F32-E797-6FF2-21A653DC344B</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD115F9A-4364-E043-76A8-4FC685598FCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

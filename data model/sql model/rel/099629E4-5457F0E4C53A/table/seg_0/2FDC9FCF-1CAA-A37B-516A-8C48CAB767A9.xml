@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FDC9FCF-1CAA-A37B-516A-8C48CAB767A9" name="bmiHistory">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:23:09 UTC</createdTime>
+<generatorID>1E42B226-89C6-D7BE-975D-F0E171069A54</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_2" id="68BD3378-B6C4-BB19-7D76-8A7D39CA130F">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:23:09 UTC</createdTime>
+<generatorID>6176CD86-0A27-4073-2473-A8F8F5A8D74F</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bmi" id="F2F2333A-728E-B559-C7D4-2E2BC508718A">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:23:09 UTC</createdTime>
+<generatorID>42265CE3-B1F8-5CD5-1FE6-DEF588F960F9</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time" id="27D73864-0463-C1CA-BEC0-DFD6B49B90ED">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:23:09 UTC</createdTime>
+<generatorID>E803AB30-7535-F41C-F5F5-AB524B59BDFD</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_id" id="A4CCD9E3-97D8-ACFB-2509-7C61EE17DFB7">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:23:09 UTC</createdTime>
+<generatorID>45D36B19-6017-73C9-CF71-37A0B9D68516</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1F3E32A-8B0D-69CB-6690-5824EC1F14FB" referredColumn="E7EA7771-6006-3439-75B1-777C70B31573"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="117269E7-5124-F87C-D956-4CAE49DD1CFD" name="bmiHistory_users_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:23:09 UTC</createdTime>
+<generatorID>B3BA82CD-AE37-A30C-8B84-FD9787694ECD</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4CCD9E3-97D8-ACFB-2509-7C61EE17DFB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83E19E38-339B-0471-FCFC-E76DD55580D5" name="patient">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>36BBDC10-F853-FB72-6C31-3DEE21FD5F55</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="C1DDF818-A528-3AAC-D21D-10995D2A4055">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>4CE27EE6-DF8B-52A3-1E70-F3ADC5578C94</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="BA76C1B7-A231-3975-C04B-B41A10DCBAB8">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>415C5516-6AFD-7EA1-03FB-4574BDFF6F75</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="height" id="C66CDBA7-C921-BB7B-436A-F556E437B560">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>68D62FFC-DF2C-6CF6-54C0-83A653461341</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="age" id="C09F4022-4F9D-8E20-7D83-8BFFFA141A11">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>18C6EC42-FAF9-337D-14E5-7B622BFAC55B</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sex" id="652EA037-6CE7-F51F-EC70-08AC3DAB593F">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>0A729F2C-2297-90DC-878D-A34B13BB707A</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_table_user_id" id="56285676-4D8B-E4BE-2E14-AC7517F55283">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>3946C272-09F3-6947-520F-05C195334267</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3C81535-4B50-9C0B-B22E-07CD98871937" referredColumn="9E7F3FAB-295B-0214-CDF2-8D91E749CF6E"/>
+</associations>
+</Column>
+<Column name="patient_ID" id="0B4A0BE2-0395-D147-B71B-1D14FABD344A">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5892E2F6-F068-DCFE-3793-CA6B47692CF5" name="patient_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="0B4A0BE2-0395-D147-B71B-1D14FABD344A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70845917-2B79-5060-4EE4-862A7031CC80" name="patient__IDX">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>084D7C3C-C6FC-E071-D832-EDC6911728D1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="56285676-4D8B-E4BE-2E14-AC7517F55283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F996BD7B-B451-1045-95B0-BDB41AA7153F" name="patient_users_table_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:04:03 UTC</createdTime>
+<generatorID>084D7C3C-C6FC-E071-D832-EDC6911728D1</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56285676-4D8B-E4BE-2E14-AC7517F55283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C662C88-28F7-020C-19BD-50A7099740CD" name="users">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:37:01 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7E292B8A-5720-F6C5-6BDA-694ABF2E9FAA">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:37:20 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9E04178E-30C9-14FB-4F28-D32F5481AF68">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:37:57 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="4513546D-F63A-6CD5-CEC8-0CB0809FCF08">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:38:28 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="A57EFB76-B67C-886C-193B-004FA0DD3708">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:38:38 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54A8CEAA-2F83-08EB-0C42-314608675B61" name="users_table PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:37:55 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E292B8A-5720-F6C5-6BDA-694ABF2E9FAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

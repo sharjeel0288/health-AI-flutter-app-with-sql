@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="1E42B226-89C6-D7BE-975D-F0E171069A54" name="bmiHistory" seqName="seg_0"/>
+   <object objectType="Entity" objectID="36BBDC10-F853-FB72-6C31-3DEE21FD5F55" name="patient" seqName="seg_0"/>
+   <object objectType="Entity" objectID="680C03B9-EFA5-9CA4-A152-6379694A5148" name="disease" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6B122E85-FA80-7C72-2CAA-EA1A4E152B27" name="doctorInfo" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8C662C88-28F7-020C-19BD-50A7099740CD" name="users" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C6C542A8-8C45-FE20-FD98-91A04882D1B7" name="diseaseHistory" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F02F06CB-A383-0229-02F7-B3432A5F95D5" name="doctors" seqName="seg_0"/>
+   <object objectType="Relation" objectID="084D7C3C-C6FC-E071-D832-EDC6911728D1" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1D6296B3-4047-78E9-3CB9-5E771CEB1C7A" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B3BA82CD-AE37-A30C-8B84-FD9787694ECD" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E9DA605B-4F32-E797-6FF2-21A653DC344B" name="Relation_1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EA427504-DEA9-F0F6-317F-AF32F35C3B0A" name="Relation_5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

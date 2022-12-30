@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="06534DCE-D7EE-BC41-8456-F1DE4226EF90" name="disease" seqName="seg_0"/>
+   <object objectType="Table" objectID="2261819C-A07A-8493-5D0F-5EA6FB577591" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="2FDC9FCF-1CAA-A37B-516A-8C48CAB767A9" name="bmiHistory" seqName="seg_0"/>
+   <object objectType="Table" objectID="4D4EE495-AAF3-1A61-0257-43E574FA850F" name="users" seqName="seg_0"/>
+   <object objectType="Table" objectID="5C4E3E89-C3EA-6C61-84DE-E0C0242A04AC" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="7A1E54EF-37EF-D9A6-85EA-4CD013126AA2" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="83E19E38-339B-0471-FCFC-E76DD55580D5" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="8AD59B1A-79FE-31AB-92BB-25230231BEA0" name="diseaseHistory" seqName="seg_0"/>
+   <object objectType="Table" objectID="915FF824-208A-0115-207A-A45A772ED2AA" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="93BC1E8E-46D1-04C2-F314-5229019CC50B" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="96DD0478-6185-8EB8-1796-D196C444F693" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="99574F42-93D8-2088-8FB9-63B6A7BE4C6D" name="patient" seqName="seg_0"/>
+   <object objectType="Table" objectID="CCA72D64-1033-A223-32A5-C6D9948152E6" name="doctors" seqName="seg_0"/>
+   <object objectType="Table" objectID="DD10CF73-6432-ADFD-8666-6481BBCDF546" name="doctorInfo" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1F51C4AF-2507-5F07-F568-C502BC44E4C2" name="patient_users_FK" containerID="99574F42-93D8-2088-8FB9-63B6A7BE4C6D" refContainerID="4D4EE495-AAF3-1A61-0257-43E574FA850F" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="21F2E20C-DE43-6801-A2A1-A574ED02FF0C" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6AC9474C-AD91-34CE-190B-A379232066D8" name="doctorInfo_doctors_FK" containerID="DD10CF73-6432-ADFD-8666-6481BBCDF546" refContainerID="CCA72D64-1033-A223-32A5-C6D9948152E6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="80D07F6B-94F8-B9E0-93A4-95D5DF878701" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A471A5D6-EFFC-E170-12C6-8236221226D1" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A607473E-CC91-B577-563A-05C04564BADE" name="diseaseHistory_patient_FK" containerID="8AD59B1A-79FE-31AB-92BB-25230231BEA0" refContainerID="99574F42-93D8-2088-8FB9-63B6A7BE4C6D" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B08DF765-41D1-1A59-BCAF-732F9FB4AA27" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D3C81535-4B50-9C0B-B22E-07CD98871937" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DBA79AB8-90F0-045A-30FA-812A56A4C187" name="disease_users_FK" containerID="06534DCE-D7EE-BC41-8456-F1DE4226EF90" refContainerID="4D4EE495-AAF3-1A61-0257-43E574FA850F" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E1F3E32A-8B0D-69CB-6690-5824EC1F14FB" name="bmiHistory_users_FK" containerID="2FDC9FCF-1CAA-A37B-516A-8C48CAB767A9" refContainerID="4D4EE495-AAF3-1A61-0257-43E574FA850F" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36BBDC10-F853-FB72-6C31-3DEE21FD5F55" name="patient">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:43:00 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4CE27EE6-DF8B-52A3-1E70-F3ADC5578C94">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:43:00 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="415C5516-6AFD-7EA1-03FB-4574BDFF6F75">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:43:00 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="height" id="68D62FFC-DF2C-6CF6-54C0-83A653461341">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:43:00 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="age" id="18C6EC42-FAF9-337D-14E5-7B622BFAC55B">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:43:00 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sex" id="0A729F2C-2297-90DC-878D-A34B13BB707A">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:43:00 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="3946C272-09F3-6947-520F-05C195334267">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 15:02:53 UTC</createdTime>
+<generatorID>084D7C3C-C6FC-E071-D832-EDC6911728D1</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<referedAttribute>7E292B8A-5720-F6C5-6BDA-694ABF2E9FAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

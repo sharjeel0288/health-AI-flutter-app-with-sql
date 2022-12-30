@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="680C03B9-EFA5-9CA4-A152-6379694A5148" name="disease">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:47:40 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_2" id="BA945DA4-E133-CD6F-1247-78B4C8F117DF">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:47:52 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prediciton" id="3EF4A46C-C2BB-9E1B-591D-3CC325D3F5BD">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:48:02 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="AD006080-67D7-0CD5-D66B-77DBE8896A2F">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:48:14 UTC</createdTime>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="29F5BCC6-58AE-BDCE-9475-A950584C6286">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-03 14:57:06 UTC</createdTime>
+<generatorID>E9DA605B-4F32-E797-6FF2-21A653DC344B</generatorID>
+<ownerDesignName>sql model</ownerDesignName>
+<engineerTo>
+<item key="099629E4-2D88-772E-6306-5457F0E4C53A" value="true"/>
+</engineerTo>
+<referedAttribute>7E292B8A-5720-F6C5-6BDA-694ABF2E9FAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
